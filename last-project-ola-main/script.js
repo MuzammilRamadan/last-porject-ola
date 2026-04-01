@@ -10,7 +10,7 @@ btn.addEventListener('mouseover', () => {
     // The button starts at currentX=0, currentY=0 relative to its initial position.
     
     // Calculate max bounds based on window size
-    const maxX = window.innerWidth / 2 - 100; // Half screen minus padding
+    const maxX = window.innerWidth / 2 - 300; // Half screen minus padding
     const maxY = window.innerHeight / 2 - 50; 
     
     // Pick a random direction and distance
